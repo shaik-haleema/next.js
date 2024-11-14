@@ -1,0 +1,27 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.4
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/root/.npmrc
+5 silly config:load:file:/usr/etc/npmrc
+6 verbose title npm install pnpm
+7 verbose argv "install" "--global" "pnpm"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-11-14T15_48_17_442Z-
+9 verbose logfile /root/.npm/_logs/2024-11-14T15_48_17_442Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly idealTree buildDeps
+12 silly fetch manifest pnpm@*
+13 http fetch GET 200 https://registry.npmjs.org/npm 174ms
+14 http fetch GET 200 https://registry.npmjs.org/pnpm 256ms (cache miss)
+15 silly placeDep ROOT pnpm@9.13.0 OK for:  want: *
+16 silly reify moves {}
+17 silly tarball no local data for pnpm@https://registry.npmjs.org/pnpm/-/pnpm-9.13.0.tgz. Extracting by manifest.
+18 http fetch GET 200 https://registry.npmjs.org/pnpm/-/pnpm-9.13.0.tgz 890ms (cache miss)
+19 silly ADD node_modules/pnpm
+20 notice
+20 notice New [33mminor[39m version of npm available! [33m10.7.0[39m -> [34m10.9.0[39m
+20 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.9.0[39m
+20 notice To update run: [4mnpm install -g npm@10.9.0[24m
+20 notice  { force: true, [Symbol(proc-log.meta)]: true }
+21 verbose exit 0
+22 info ok
